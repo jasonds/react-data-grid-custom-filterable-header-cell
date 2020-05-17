@@ -6,6 +6,7 @@ Create a react-data-grid instance with a custom filterable header cell, for a co
 ## Building the Code
 ```bash
 git clone https://github.com/jasonds/react-data-grid-custom-filterable-header-cell.git
+cd react-data-grid-custom-filterable-header-cell
 npm install
 npm start
 ```
@@ -15,7 +16,7 @@ Navigate here to see the custom filterable header cell:
 <a href="https://github.com/jasonds/react-data-grid-custom-filterable-header-cell/tree/master/src/components/global/FilterableHeaderCell.tsx">https://github.com/jasonds/react-data-grid-custom-filterable-header-cell/tree/master/src/components/global/FilterableHeaderCell.tsx</a>
 
 See it used here:  
-<a href="https://github.com/jasonds/react-data-grid-custom-filterable-header-cell/tree/master/src/pages/tasks/index.tsx">https://github.com/jasonds/react-data-grid-custom-filterable-header-cell/tree/master/src/pages/tasks/index.tsx</a>
+<a href="https://github.com/jasonds/react-data-grid-custom-filterable-header-cell/blob/900caa0496ace4d8e05b136fa2af31a25114f1f9/src/pages/tasks/index.tsx#L43-L52">https://github.com/jasonds/react-data-grid-custom-filterable-header-cell/tree/master/src/pages/tasks/index.tsx</a>
 
 ```bash
     {
