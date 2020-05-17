@@ -1,7 +1,38 @@
 # react-data-grid-custom-filterable-header-cell
-Creation of a react-data-grid instance with a custom filterable header cell for a column
+
+## Goal
+Create a react-data-grid instance with a custom filterable header cell, for a column.
+
+## Building the Code
+```bash
+git clone https://github.com/jasonds/react-data-grid-custom-filterable-header-cell.git
+npm install
+npm start
+```
+
+## Overview
+Navigate here to see the custom filterable header cell:  
+<a href="https://github.com/jasonds/react-data-grid-custom-filterable-header-cell/tree/master/src/components/global/FilterableHeaderCell.tsx">https://github.com/jasonds/react-data-grid-custom-filterable-header-cell/tree/master/src/components/global/FilterableHeaderCell.tsx</a>
+
+See it used here:  
+<a href="https://github.com/jasonds/react-data-grid-custom-filterable-header-cell/tree/master/src/pages/tasks/index.tsx">https://github.com/jasonds/react-data-grid-custom-filterable-header-cell/tree/master/src/pages/tasks/index.tsx</a>
+
+```bash
+    {
+      key: 'description',
+      name: 'Description',
+      editable: false,
+      filterable: true,
+
+      // Omit the filterRenderer property to use the default renderer found here:
+      // https://github.com/adazzle/react-data-grid/blob/master/packages/common/cells/headerCells/FilterableHeaderCell.js
+      filterRenderer: CreateFilterableHeaderCell(['/'])
+    },
+```
+
 
 ---
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

@@ -21,3 +21,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# react-data-grid-custom-filterable-header-cell
+/.vs
