@@ -1,7 +1,5 @@
-import React, { useEffect, useState, useRef } from 'react';
+import React, { useEffect } from 'react';
 import { connect } from 'react-redux';
-import ReactDataGrid from 'react-data-grid';
-import { Data } from 'react-data-grid-addons';
 import * as POC from '../../core';
 import { AppState } from '../../store';
 import { getTasks } from '../../store/task/actions';
